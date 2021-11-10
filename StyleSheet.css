@@ -104,3 +104,37 @@ footer{
     background-color: lightskyblue;
 }
 
+
+.article>div{
+height: 50px;
+}
+
+.personalInfo{
+    width: 80%;
+    background: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    border-radius: 10%;
+}
+
+.personalInfo img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.personalInfo h1{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.personalInfo aside{
+    font-size: 20px;
+    font-weight: 100;
+    text-align: justify;
+}
+
