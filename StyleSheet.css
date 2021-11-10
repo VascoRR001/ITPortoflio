@@ -2,7 +2,105 @@
     margin:0;
     padding: 0;
 }
-
-.article>div{
-height: 50px;
+body{
+    background-color: rgb(243, 242, 242);
+    font-family:'Josefin Sans' ,sans-serif;
+    box-sizing: border-box;
 }
+
+strong{
+    font-size: 1.5rem;
+}
+
+.Navcontainer {
+    height: 5vh;
+    background-color: lightgrey;
+}
+
+.Portfolio-Introduction{
+    height: 15vh;
+    margin:3rem 2rem;
+    width: 50%;
+    font-size: 1.2rem;
+    background-color:lightskyblue;
+    border-radius:10px;
+  
+}
+.menu a:hover{
+    transform: scale(1.1);
+}
+.Portfolio-Introduction_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+form{
+    margin:5rem;
+}
+form .button:hover{
+transform: scale(1.1);
+}
+form *:first-child:hover{
+    transform: scale(1.05);
+}
+section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    margin: 5vh 5vh;
+    box-shadow: 6px 4px 12px rgb(0,0,0,0.8);
+}
+main{
+    background-color: lightgray;
+    height: 80vh;
+    flex:1;
+    display: flex;
+}
+aside{
+    background-color: rgb(87, 87, 241);
+    height: 80vh;
+    width:25vw;
+    padding: 1rem 1rem;
+    overflow: hidden;
+}
+.HomePage-Section_1{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius:8px ;
+}
+.HomePage-Section_2{
+    border-top-left-radius:8px ;
+    border-bottom-left-radius: 8px;
+}
+.aside1{
+border-top-right-radius: 8px;
+border-bottom-right-radius:8px ;
+}
+.aside2{
+    border-top-left-radius:8px ;
+    border-bottom-left-radius: 8px;
+}
+section img{
+ height: 60vh;
+ width: 50vh;
+ box-shadow: 6px 4px 12px rgb(0,0,0,0.6);
+ 
+}
+section img:hover{
+    transform: scale(1.05);
+}
+.tiagoImg{
+    border-top-right-radius:8px ;
+    border-bottom-right-radius: 8px;
+    margin-right: 0;
+
+}
+.vascoImg{
+    border-top-left-radius:8px ;
+    border-bottom-left-radius: 8px;
+}
+footer{
+    height: 15vh;
+    background-color: lightskyblue;
+}
+
