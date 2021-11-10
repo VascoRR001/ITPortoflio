@@ -8,8 +8,12 @@ height: 50px;
 }
 
 .personalInfo aside{
-
     width: 50%;
     float: right;
     background-color: lightgray;
+}
+
+.personalInfo a{
+    margin: 0px 20px;
+
 }
