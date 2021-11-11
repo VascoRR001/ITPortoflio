@@ -134,6 +134,11 @@ height: 50px;
     border-radius: 50%;
     width: 200px;
     height: 200px;
+    box-shadow: 6px 4px 12px rgb(0,0,0,0.6);
+}
+
+.personalInfo img:hover{
+    transform: scale(1.05);
 }
 
 .personalInfo h1{
