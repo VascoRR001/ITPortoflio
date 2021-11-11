@@ -6,12 +6,13 @@ body{
     background-color: rgb(243, 242, 242);
     font-family:'Josefin Sans' ,sans-serif;
     box-sizing: border-box;
-   
     background: url(https://static-cse.canva.com/blob/571503/Patterns303.jpg);
     background-size: cover;
+    
 }
 .Contact-Page-Body,.Vasco-Body,.Tiago-Body,.Bernard-Body{
     padding-top: 5rem;
+
 }
 strong{
     font-size: 1.5rem;
@@ -201,16 +202,40 @@ height: 50px;
 .Contact-Page-Container{
     display: flex;
     flex-direction: column;
-    margin:2rem;
+    margin:2rem 20%;
+}
+.title-div{
+    
+    text-align: center;
 }
 
+.icon-paper-plane:hover{
+    transform: translateX(1.05rem) scale(1.05);
+}
 
 footer{
     height: auto;
-    background-color: lightskyblue;
+    background: lightskyblue;
     margin-top: 20px;
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-direction: column;
+}
+.footer-content-contact{
+    position: absolute;
+    top:100%;
+    
+}
+@media(min-width:600px){
+.Contact-Page-Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.Contact-Page-Container div{
+    width: 80%; 
+    margin-left:2rem;
+}
 }
