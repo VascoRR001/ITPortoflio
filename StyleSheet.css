@@ -130,11 +130,10 @@ flex-direction: column;
 }
 
 .aside1 span ,.aside2 span, .aside3 span{
-margin: 1rem;
 font-size: 1.2rem;
 font-style: bold;
 }
-.aside1 img, .aside2 img, .aside3 image{
+.aside1 img, .aside2 img, .aside3 img{
    width: 100%;
    height: fit-content;
 }
