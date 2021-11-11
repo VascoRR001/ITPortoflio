@@ -6,6 +6,8 @@ body{
     background-color: rgb(243, 242, 242);
     font-family:'Josefin Sans' ,sans-serif;
     box-sizing: border-box;
+    background: url(https://static-cse.canva.com/blob/571503/Patterns303.jpg);
+    background-size: cover;
 }
 
 strong{
@@ -16,15 +18,15 @@ strong{
     height: 5vh;
     background-color: lightgrey;
 }
-
 .Portfolio-Introduction{
     height: 15vh;
     margin:3rem 2rem;
-    width: 50%;
     font-size: 1.2rem;
     background-color:lightskyblue;
     border-radius:10px;
-  
+    width:fit-content;
+    block-size: fit-content;
+
 }
 .menu a:hover{
     transform: scale(1.1);
@@ -36,10 +38,13 @@ strong{
     overflow: hidden;
 }
 form{
-    margin:5rem;
+    margin:2rem;
 }
 form .button:hover{
 transform: scale(1.1);
+}
+form >*:first-child{
+    width: 60%;
 }
 form *:first-child:hover{
     transform: scale(1.05);
@@ -50,41 +55,86 @@ section{
     margin-top: 0;
     margin: 5vh 5vh;
     box-shadow: 6px 4px 12px rgb(0,0,0,0.8);
+
 }
 main{
     background-color: lightgray;
     height: 80vh;
     flex:1;
     display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.4);
 }
+.card{
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    border-radius: 0.7rem;
+    position: relative;
+    top:60%;
+    background-color: rgb(70, 69, 69);
+    border:none;
+
+}
+.card button:hover{
+    transform: scale(1.1);
+}
+
 
 .HomePage-Section_1{
-    border-top-right-radius: 8px;
-    border-bottom-right-radius:8px ;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius:1rem ;
 }
 .HomePage-Section_2{
-    border-top-left-radius:8px ;
-    border-bottom-left-radius: 8px;
+    border-top-left-radius:1rem ;
+    border-bottom-left-radius: 1rem;
 }
-
+.HomePage-Main_1{
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+.HomePage-Main_2{
+border-bottom-right-radius: 1rem;
+border-top-right-radius: 1rem;
+}
+main p{
+    margin:1rem 10%;
+    width:80%;
+    color:white;
+}
 .aside1{
 border-top-right-radius: 8px;
 border-bottom-right-radius:8px ;
-background-color: rgb(87, 87, 241);
 height: 80vh;
 width:25vw;
 padding: 1rem 1rem;
 overflow: hidden;
+background-color:lightskyblue;
+display: flex;
+flex-direction: column;
+
+
+}
+.aside1 span ,.aside2 span{
+margin: 1rem;
+font-size: 1.2rem;
+font-style: bold;
+}
+.aside1 img, .aside2 img{
+   width: 100%;
+   height: fit-content;
 }
 
 .aside2{
     border-top-left-radius:8px ;
     border-bottom-left-radius: 8px;
-    background-color: rgb(87, 87, 241);
     height: 80vh;
     width:25vw;
     padding: 1rem 1rem;
     overflow: hidden;
+    background-color:lightskyblue;
+    display: flex;
+    flex-direction: column;
 }
 section img{
  height: 60vh;
@@ -95,16 +145,11 @@ section img{
 section img:hover{
     transform: scale(1.05);
 }
-.tiagoImg{
-    border-top-right-radius:8px ;
-    border-bottom-right-radius: 8px;
-    margin-right: 0;
+.tiagoImg,.vascoImg{
+   border-radius:  0.5rem ;
 
 }
-.vascoImg{
-    border-top-left-radius:8px ;
-    border-bottom-left-radius: 8px;
-}
+
 footer{
     height: 15vh;
     background-color: lightskyblue;
