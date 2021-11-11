@@ -105,11 +105,6 @@ section img:hover{
     border-top-left-radius:8px ;
     border-bottom-left-radius: 8px;
 }
-footer{
-    height: 15vh;
-    background-color: lightskyblue;
-}
-
 
 .article>div{
 height: 50px;
@@ -149,4 +144,13 @@ height: 50px;
     font-size: 20px;
     width: 100%;
     text-align: justify;
+}
+
+footer{
+    height: auto;
+    background-color: lightskyblue;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
