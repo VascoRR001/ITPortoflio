@@ -127,9 +127,8 @@ overflow: hidden;
 background-color:lightskyblue;
 display: flex;
 flex-direction: column;
-
-
 }
+
 .aside1 span ,.aside2 span, .aside3 span{
 margin: 1rem;
 font-size: 1.2rem;
@@ -153,8 +152,8 @@ font-style: bold;
 }
 
 .aside3{
-    border-top-left-radius:8px ;
-    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius:8px ;
     height: 80vh;
     width:25vw;
     padding: 1rem 1rem;
@@ -162,7 +161,7 @@ font-style: bold;
     background-color:lightskyblue;
     display: flex;
     flex-direction: column;
-}
+    }
 
 section img{
  height: 60vh;
