@@ -57,13 +57,7 @@ main{
     flex:1;
     display: flex;
 }
-aside{
-    background-color: rgb(87, 87, 241);
-    height: 80vh;
-    width:25vw;
-    padding: 1rem 1rem;
-    overflow: hidden;
-}
+
 .HomePage-Section_1{
     border-top-right-radius: 8px;
     border-bottom-right-radius:8px ;
@@ -72,13 +66,25 @@ aside{
     border-top-left-radius:8px ;
     border-bottom-left-radius: 8px;
 }
+
 .aside1{
 border-top-right-radius: 8px;
 border-bottom-right-radius:8px ;
+background-color: rgb(87, 87, 241);
+height: 80vh;
+width:25vw;
+padding: 1rem 1rem;
+overflow: hidden;
 }
+
 .aside2{
     border-top-left-radius:8px ;
     border-bottom-left-radius: 8px;
+    background-color: rgb(87, 87, 241);
+    height: 80vh;
+    width:25vw;
+    padding: 1rem 1rem;
+    overflow: hidden;
 }
 section img{
  height: 60vh;
@@ -134,7 +140,7 @@ height: 50px;
 
 .personalInfo aside{
     font-size: 20px;
-    font-weight: 100;
+    width: 100%;
     text-align: justify;
 }
 
