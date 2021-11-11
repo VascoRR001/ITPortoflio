@@ -6,10 +6,13 @@ body{
     background-color: rgb(243, 242, 242);
     font-family:'Josefin Sans' ,sans-serif;
     box-sizing: border-box;
+   
     background: url(https://static-cse.canva.com/blob/571503/Patterns303.jpg);
     background-size: cover;
 }
-
+.Contact-Page-Body,.Vasco-Body,.Tiago-Body,.Bernard-Body{
+    padding-top: 5rem;
+}
 strong{
     font-size: 1.5rem;
 }
@@ -65,7 +68,7 @@ main{
     flex-direction: column;
     background: rgba(0, 0, 0, 0.4);
 }
-.card{
+ main .card{
     margin-left: 30%;
     margin-right: 30%;
     width: 40%;
@@ -201,6 +204,12 @@ height: 50px;
     width: 100%;
     text-align: justify;
 }
+.Contact-Page-Container{
+    display: flex;
+    flex-direction: column;
+    margin:2rem;
+}
+
 
 footer{
     height: auto;
@@ -209,4 +218,5 @@ footer{
     align-items: center;
     justify-content: center;
     text-align: center;
+    flex-direction: column;
 }
