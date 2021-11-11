@@ -93,6 +93,12 @@ main{
     border-top-left-radius:1rem ;
     border-bottom-left-radius: 1rem;
 }
+
+.HomePage-Section_3{
+    border-top-left-radius:1rem ;
+    border-bottom-left-radius: 1rem;
+}
+
 .HomePage-Main_1{
     border-bottom-left-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -101,6 +107,12 @@ main{
 border-bottom-right-radius: 1rem;
 border-top-right-radius: 1rem;
 }
+
+.HomePage-Main_3{
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
 main p{
     margin:1rem 10%;
     width:80%;
@@ -116,15 +128,13 @@ overflow: hidden;
 background-color:lightskyblue;
 display: flex;
 flex-direction: column;
-
-
 }
-.aside1 span ,.aside2 span{
-margin: 1rem;
+
+.aside1 span ,.aside2 span, .aside3 span{
 font-size: 1.2rem;
 font-style: bold;
 }
-.aside1 img, .aside2 img{
+.aside1 img, .aside2 img, .aside3 img{
    width: 100%;
    height: fit-content;
 }
@@ -140,6 +150,19 @@ font-style: bold;
     display: flex;
     flex-direction: column;
 }
+
+.aside3{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius:8px ;
+    height: 80vh;
+    width:25vw;
+    padding: 1rem 1rem;
+    overflow: hidden;
+    background-color:lightskyblue;
+    display: flex;
+    flex-direction: column;
+    }
+
 section img{
  height: 60vh;
  width: 50vh;
@@ -149,7 +172,7 @@ section img{
 section img:hover{
     transform: scale(1.05);
 }
-.tiagoImg,.vascoImg{
+.tiagoImg,.vascoImg, .bernardImg{
    border-radius:  0.5rem ;
 
 }
@@ -159,6 +182,10 @@ section img:hover{
     border-bottom-left-radius: 8px;
 }
 
+.bernardImg{
+    border-top-left-radius:8px ;
+    border-bottom-left-radius: 8px;
+}
 
 .article>div{
 height: 50px;
@@ -174,7 +201,7 @@ height: 50px;
     margin: 2rem;
     margin-top: 5%;
     color: white;
-    border-radius: 10%;
+    border-radius: 7%;
     box-shadow: 6px 4px 12px rgb(0,0,0,0.6);
 }
 
