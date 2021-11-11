@@ -125,6 +125,7 @@ height: 50px;
     margin-top: 5%;
     color: white;
     border-radius: 10%;
+    box-shadow: 6px 4px 12px rgb(0,0,0,0.6);
 }
 
 .personalInfo img{
