@@ -235,6 +235,9 @@ height: 50px;
     
     text-align: center;
 }
+.title-div h1{
+    color:white;
+}
 
 .icon-paper-plane:hover{
     transform: translateX(1.05rem) scale(1.05);
