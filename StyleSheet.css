@@ -59,11 +59,12 @@ section{
     margin-top: 0;
     margin: 5vh 5vh;
     box-shadow: 6px 4px 12px rgb(0,0,0,0.8);
+    height: 70vh;
 
 }
 main{
     background-color: lightgray;
-    height: 80vh;
+    height: 50vh;
     flex:1;
     display: flex;
     flex-direction: column;
@@ -74,10 +75,11 @@ main{
     margin-right: 30%;
     width: 40%;
     border-radius: 0.7rem;
-    position: relative;
-    top:60%;
+    margin-top:10%;
     background-color: rgb(70, 69, 69);
     border:none;
+
+
 
 }
 .card button:hover{
@@ -149,6 +151,7 @@ font-style: bold;
     background-color:lightskyblue;
     display: flex;
     flex-direction: column;
+    height: 70vh;
 }
 
 .aside3{
@@ -161,6 +164,10 @@ font-style: bold;
     background-color:lightskyblue;
     display: flex;
     flex-direction: column;
+    height: 70vh;
+    }
+    .aside1{
+        height: 70vh;
     }
 
 section img{
@@ -258,6 +265,9 @@ footer{
     width: 100%;
     
 }
+.Contact-Page-Container{
+    margin:1rem 3rem;
+}
 @media(min-width:600px){
 .Contact-Page-Container{
     display: flex;
@@ -269,4 +279,11 @@ footer{
     width: 80%; 
     margin-left:2rem;
 }
+.img{
+    height: 50%;
+}
+span{
+    font-size: 0.8rem;
+}
+    
 }
