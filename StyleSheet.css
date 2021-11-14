@@ -8,6 +8,7 @@ body{
     box-sizing: border-box;
     background: url(https://static-cse.canva.com/blob/571503/Patterns303.jpg);
     background-size: cover;
+
     
 }
 .Contact-Page-Body,.Vasco-Body,.Tiago-Body,.Bernard-Body{
@@ -32,6 +33,7 @@ strong{
     block-size: fit-content;
 
 }
+
 .menu a:hover{
     transform: scale(1.1);
 }
@@ -40,6 +42,7 @@ strong{
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
+
 }
 form{
     margin:2rem;
@@ -183,10 +186,12 @@ section img{
 section img:hover{
     transform: scale(1.05);
 }
+
 .tiagoImg,.vascoImg, .bernardImg{
    border-radius:  0.5rem ;
 
 }
+
 
 .vascoImg{
     border-top-left-radius:8px ;
@@ -283,5 +288,12 @@ footer{
     width: 80%; 
     margin-left:2rem;
 }
-    
+
 }
+@media(max-width:600px){
+aside{
+    flex:1;
+}
+
+}
+
